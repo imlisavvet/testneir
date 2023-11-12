@@ -20,7 +20,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras import utils
 
-# дулим на выборки
+# дeлим на выборки
 
 (x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
 
